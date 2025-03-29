@@ -10,7 +10,7 @@
             "description": "Paste Your session add also to config.js",
             "required": true,
             "value": ""
-        }
+        } 
     },
          "buildpacks": [
         {
