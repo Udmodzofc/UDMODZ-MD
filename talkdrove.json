@@ -1,0 +1,18 @@
+
+{
+    "bot-name": "UDMODZ-MD",
+    "description": "QUEEN UDMODZ BY UDhanika Dissanayaka",
+    "logo": "https://i.ibb.co/yFsrvtKX/354.png",
+    "keywords": ["bot","udmodz","md","-","queen"],
+    "documentation-link": "https://queen-udmodz.vercel.app/",
+    "owner-verification":"udmodzz@gmail.com",
+  
+      "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },
+
+  }
+  
+}
