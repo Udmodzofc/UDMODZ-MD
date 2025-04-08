@@ -1,18 +1,34 @@
-
 {
-    "bot-name": "UDMODZ-MD",
-    "description": "QUEEN UDMODZ BY UDhanika Dissanayaka",
-    "logo": "https://i.ibb.co/yFsrvtKX/354.png",
-    "keywords": ["bot","udmodz","md","-","queen"],
-    "documentation-link": "https://queen-udmodz.vercel.app/",
-    "owner-verification":"udmodzofc@gmail.com",
-  
-      "env": {
+  "bot-name": "UDMODZ-MD",
+  "description": "QUEEN UDMODZ BY UDhanika Dissanayaka",
+  "logo": "https://i.ibb.co/yFsrvtKX/354.png",
+  "keywords": ["bot", "udmodz", "md", "-", "queen"],
+  "documentation-link": "https://queen-udmodz.vercel.app/",
+  "owner-verification": "udmodzofc@gmail.com",
+  "env": {
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true
     },
-
+    "AUTO_READ_STATUS": {
+      "description": "Enable or disable auto read status.",
+      "required": false,
+      "default": "true"
+    },
+    "ANTI_DELETE": {
+      "description": "Enable or disable anti-delete messages.",
+      "required": false,
+      "default": "true"
+    },
+    "MODE": {
+      "description": "Set bot mode: public, private, groups, inbox.",
+      "required": false,
+      "default": "public"
+    },
+    "ALWAYS_OFFLINE": {
+      "description": "Show bot always offline.",
+      "required": false,
+      "default": "false"
+    }
   }
-  
 }
