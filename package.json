@@ -56,7 +56,7 @@
     "qrcode-terminal": "latest",
     "removebg-wrapper": "latest",
     "sequelize": "latest",
-    "sharp": "^0.34.1",
+    "sharp": "^0.32.6",
     "stream": "latest",
     "tiktokdl": "latest",
     "util": "latest",
